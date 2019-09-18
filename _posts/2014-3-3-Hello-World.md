@@ -1,10 +1,10 @@
 ---
 layout: post
-title: You're up and running!
+title: My first post
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Well, it looks like I finally could create a post for this page
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![alt text](https://www.pngkey.com/png/full/5-50756_melania-trump-png-melania-trump-face-transparent.png "Melania Trump")
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Now a Melania Trump picture for luck!
