@@ -5,6 +5,6 @@ title: My first post
 
 Well, it looks like I finally could create a post for this page
 
-![alt text](https://www.pngkey.com/png/full/5-50756_melania-trump-png-melania-trump-face-transparent.png "Melania Trump")
+![alt text](https://media.giphy.com/media/AjruaCO0Yy4fu/giphy.gif"Melania Trump")
 
-Now a Melania Trump picture for luck!
+Now a Melania Trump gif for luck!
