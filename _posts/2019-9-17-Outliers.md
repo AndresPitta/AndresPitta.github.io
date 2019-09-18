@@ -18,7 +18,7 @@ Imagine having a group of 10 friends and all of you are the almost the same heig
 
 Now, imagine that you meet someone called _Bob_ on your vacations to <b>Colombia</b> and it turns out that your new friend is from the same city as you. When you come back to your city, you introduce _Bob_ to your friends and they all like him - he is a really cool guy. Now that you have a new friend, you want to know your group of friend's height distribution again. As you already noticed, _Bob_ is really tall, so you ask him and he tells you that he is 120' (<i><b>Bob doesn't like it when you question his height</b></i>). You then proceed to check your new distribution and you realize that the average height of your group changed to 14'11" (Also, the highest distance to the average becomes 105').
 
-<p style="font-size:120%">Amazing, isn't it?</p>
+<p style="font-size:120%"><b>Amazing, isn't it?</b></p>
 
 
 
