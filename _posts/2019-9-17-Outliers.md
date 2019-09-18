@@ -9,7 +9,7 @@ Hola everyone, I decided to write my first post about outliers. This is a very c
 
 ![alt text](https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif "Me Typing - not me, really")
 
-[source](https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif)
+[source:](https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif)
 
 <h2 style="text-align:center">What is an outlier?</h2>
 
