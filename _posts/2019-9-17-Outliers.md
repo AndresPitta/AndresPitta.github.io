@@ -10,6 +10,13 @@ Hola everyone, I decided to write my first post about outliers. This is a very c
 
 <img src="https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif" alt="Me Typing - not me, really" style="width:128px;height:128px;" class="center">
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 [source](https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif)
 
 <h2 style="text-align:center">What is an outlier?</h2>
