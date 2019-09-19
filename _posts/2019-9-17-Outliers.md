@@ -39,10 +39,12 @@ Defining the correct "threshold" for what an outlier is or is not considered can
 
 <h2 style="text-align:center">In conclusion</h2>
 
-Outliers is a concept to consider when doing a prediction. Having an extremely high (or low value) can lead you to misleading conclusions if it is not handled correctly. So, next time you read me, I hope you have taken care of those outliers.
+Outliers is a concept to consider when doing a prediction. Having an extremely high (or low value) can affect some measures such as the mean or the variance of a distribution. This can end up in having misleading conclusion in your results. So, next time you read me, I hope you have taken care of those outliers.
 
+<h2 style="text-align:center">Reference</h2>
 
-
+https://en.wikipedia.org/wiki/Outlier
+https://stats.oecd.org/glossary/detail.asp?ID=3792
 
 
 
