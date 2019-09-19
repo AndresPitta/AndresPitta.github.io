@@ -19,7 +19,7 @@ Now, imagine that you meet someone called _Bob_ on your vacations to <b>Colombia
 
 <b>Amazing, isn't it?</b>
 
-Well, in this example _Bob's_ height might be considered to be an <b>outlier</b>. According to wikipedia, an [outlier](https://en.wikipedia.org/wiki/Outlier) is a "data point that differs significantly from other observations". So, given that your and your friend's height is around 5'6", _Rob's height seems be differing significantly from other observations_.
+Well, in this example _Bob's_ height might be considered to be an <b>outlier</b>. According to wikipedia, an [outlier](https://en.wikipedia.org/wiki/Outlier) is a "data point that differs significantly from other observations". So, given that your and your friend's height is around 5'6", _Rob's height seems to be differing significantly from other observations_.
 
 <h2 style="text-align:center">Why should we care about them?</h2>
 
@@ -27,7 +27,7 @@ Say, for example, that you want to guess one of your friend's height based on yo
 
 On the opposite case of the example, you can guess her height after you met _Bob_. For this scenario, your guess would be 14'11". When comparing the possible outcomes to your new results, it seems like you think she is way taller than she really is.  
 
-In statistics, the exercise I tried to replicate with the example is called _prediction_ (or in a more technical way a [prediction](https://stats.oecd.org/glossary/detail.asp?ID=3792) is the process of estimating an outcome in a future point in time). So, having an outlier in your dataset can lead to overestimation problems or underestimation problems or, in general, to misleading results.
+In statistics, what I tried to replicate with the example is called _prediction_. In technical definition, a [prediction](https://stats.oecd.org/glossary/detail.asp?ID=3792) is the process of estimating an outcome in a future point in time. Predictions can be useful for forecasting problems, for example. However, having outliers in your data can lead you to misleading predictions.
 
 <h2 style="text-align:center">What could be a problem handling outliers?</h2>
 
@@ -35,7 +35,7 @@ Up to this point, we decided that _Bob_ is 120' tall. This is, undoubtedly, a ve
 
 <b>Is he still an outlier?</b>
 
-Defining the correct "threshold" for what an outlier is or is not considered can be a very complicated task. It depends mostly on the type of data you are handling. For some people, 6'5" can be a close number to the distribution. For others, it can be an outlier. Learning some methods to identify outliers is not going to be discussed on this post, but I hope the explanation I just gave you helps you to understand the concept behind it.
+Defining the correct "threshold" for what an outlier is or is not considered can be a very complicated task. It depends mostly on the type of data you are handling. For some people, 6'5" can be a close number to the distribution. For others, it can be an outlier. Thus, identifying outliers is a very subjective exercise. Learning some methods to identify outliers is not going to be discussed on this post, but I hope the explanation I just gave you helps you to understand the concept behind it.
 
 <h2 style="text-align:center">In conclusion</h2>
 
