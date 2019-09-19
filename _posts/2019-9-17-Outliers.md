@@ -44,7 +44,7 @@ Outliers is a concept to consider when doing a prediction. Having an extremely h
 <h2 style="text-align:center">References</h2>
 
 [https://en.wikipedia.org/wiki/Outlier] (https://en.wikipedia.org/wiki/Outlier)
-[https://stats.oecd.org/glossary/detail.asp?ID=3792] https://stats.oecd.org/glossary/detail.asp?ID=3792
+[https://stats.oecd.org/glossary/detail.asp?ID=3792] (https://stats.oecd.org/glossary/detail.asp?ID=3792)
 
 
 
