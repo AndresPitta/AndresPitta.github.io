@@ -7,7 +7,7 @@ title: Outliers
 
 Hola everyone, I decided to write my first post about outliers. This is a very common concept when handling data and it can, often times, be problematic when building predictive models. On this post I am going to explain what an outlier is and how they can affect our results. In addition, I am going to explain briefly the concept behind finding outliers. So, I hope you enjoy: 
 
-<img src="https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif" alt="Me Typing - not me, really" style="align=middle;">
+![alt text](https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif "Me Typing - not me, really")
 
 [source](https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif)
 
