@@ -4,7 +4,7 @@ title: Outliers
 ---
 <h1 style="font-size:200%;text-align:center">A Quick Explanation on Outliers and Why We Should Care About Them</h1>
 
-Hola everyone, I decided to write my first post about outliers. This is a very common concept when handling data and it can, often times, be problematic when building predictive models. On this post I am going to explain what an outlier is and how they can affect our results. In addition, I am going to explain briefly the concept behind finding outliers. So, I hope you enjoy: 
+Hola everyone, I decided to write my first post about outliers. This is a very common concept when handling data and it can, often times, be problematic when doing statistical analyses. On this post I am going to explain what an outlier is and how they can affect our results. In addition, I am going to explain briefly the concept behind finding outliers. So, I hope you enjoy: 
 
 ![alt text](https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif "Me Typing - not me, really")
 
@@ -26,7 +26,9 @@ Say, for example, that you want to guess one of your friend's height based on yo
 
 On the opposite case of the example, you can guess her height after you met _Bob_. For this scenario, your guess would be 14'11". When comparing the possible outcomes to your new results, it seems like you think she is way taller than she really is.  
 
-In statistics, what I tried to replicate with the example is called _prediction_. In technical definition, a [prediction](https://stats.oecd.org/glossary/detail.asp?ID=3792) is the process of estimating an outcome in a future point in time. For this statistical analysis, having outliers in your data can change your calculations drastically. This, ultimately, will cause you misleading conclusion like <b>telling your friend's mom that she might be 14'11" tall</b> <i>or</i> <b>not letting her ride in a roller coaster because you think she is just too tall (but she is not).</b>
+In statistics, what I tried to replicate with the example is called _prediction_. In technical definition, a [prediction](https://stats.oecd.org/glossary/detail.asp?ID=3792) is the process of estimating an outcome in a future point in time. This example, and some other analyses, rely on metrics such as the average value or the distance of each observation. And, if you are handling real life situations, this results can affect your decision making process.
+
+Therefore, having outlier in your data can create misleading conclusions such as <b>telling your friend's mom that she might be 14'11" tall</b> <i>or</i> <b>not letting her ride in a roller coaster because you think she is just too tall (but she is not).</b>
 
 <h2 style="text-align:center">What could be a problem handling outliers?</h2>
 
@@ -34,7 +36,7 @@ Up to this point, we decided that _Bob_ is 120' tall. This is, undoubtedly, a ve
 
 <b>Is he still an outlier?</b>
 
-Defining the correct limit for what an outlier is (or isn't) can be a very complicated task. It depends mostly on the type of data you are handling. For some people, 6'5" can be a close number to the distribution. For others, it can be an outlier. Thus, identifying outliers is a very subjective exercise and there are many approximations to do that. Learning some methods to identify outliers is not going to be discussed on this post, but I hope the explanation I just gave you helps to understand the concept behind it.
+Defining the correct limit for what an outlier is (or isn't) can be a very complicated task. It depends mostly on the type of data you are handling and its user. For some people, 6'5" can be a close number to the distribution. For others, it can be an outlier. Thus, identifying outliers is a very subjective exercise and there are many approximations to do that. Learning some methods to identify outliers is not going to be discussed on this post, but I hope the explanation I just gave you helps to understand the concept behind it.
 
 <h2 style="text-align:center">In conclusion</h2>
 
@@ -44,4 +46,3 @@ Outliers is a concept to consider when doing statistical analyses. Having an ext
 
 [Outliers:](https://en.wikipedia.org/wiki/Outlier)
 [Prediction:](https://stats.oecd.org/glossary/detail.asp?ID=3792)
-
