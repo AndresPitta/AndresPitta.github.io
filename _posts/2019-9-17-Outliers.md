@@ -4,7 +4,7 @@ title: Outliers
 ---
 <h1 style="font-size:200%;text-align:center">A Quick Explanation on Outliers and Why We Should Care About Them</h1>
 
-Hola everyone, I decided to write my first post about outliers. This is a very common concept when handling data and it can, often times, be problematic when doing statistical analyses. On this post I am going to explain what an outlier is and how they can affect our results. In addition, I am going to explain briefly the concept behind finding outliers. So, I hope you enjoy: 
+Hola everyone, I decided to write my first post about outliers. This is a very common concept when handling data and it can, often times, be problematic when doing statistical analyses. On this post I am going to explain what an outlier is and how they can affect our results. In addition, I am going to explain briefly the concept behind finding outliers. Remember that I am trying to approach this concept with a little bit of comedy. So, I hope you enjoy: 
 
 ![alt text](https://i.makeagif.com/media/8-18-2017/S_jkMJ.gif "Me Typing - not me, really")
 
@@ -36,7 +36,7 @@ Up to this point, we decided that _Bob_ is 120' tall. This is, undoubtedly, a ve
 
 <b>Is he still an outlier?</b>
 
-Defining the correct limit for what an outlier is (or isn't) can be a very complicated task. It depends mostly on the type of data you are handling and its user. For some people, 6'5" can be a close number to the distribution. For others, it can be an outlier. Thus, identifying outliers is a very subjective exercise and there are many approximations to do that. Learning some methods to identify outliers is not going to be discussed on this post, but I hope the explanation I just gave you helps to understand the concept behind it.
+Defining the correct limit for what an outlier is (or isn't) can be a very complicated task. It depends mostly on the type of data you are handling and its user. For some people, 6'5" can be a close number to the distribution. For others, it can be an outlier. Thus, identifying outliers is a very subjective exercise and there are many approximations to do that. Learning some methods to identify outliers is not going to be discussed on this post. So, please, wait for a future post on that.
 
 <h2 style="text-align:center">In conclusion</h2>
 
