@@ -4,9 +4,9 @@ title: Pokemon-generator
 ---
 <h1 style="font-size:200%;text-align:center">Using Generative Adversarial Networks to generate Pokemon</h1>
 
-Growing up, I really enjoyed everything about Pokemon. I remember that I was around 11 when my parents bought me my first Pokemon game, Pokemon Ruby. The first Pokemon I chose was the grass-type, Treecko, and then at the second gym I regretted my decision and restarted the game to play with the water-type Mudkip (Because I loved the swimming pool, so it made sense to me as a kid to only have water-type Pokemon). 
+Growing up, I really enjoyed everything about Pokemon. I remember that I was around 11 when my parents bought me my first Pokemon game, Pokemon Ruby. The first Pokemon I chose was the grass-type, Treecko, and then at the second gym I regretted my decision and restarted the game to play with the water-type Mudkip (because I loved the swimming pool, so it made sense to me as a kid to only have water-type Pokemon). 
 
-I was never a good player competitive player (Yeah, I very often loose, haha!), but one thing I really really like is the design element Pokemon has. As a child, I was very amused by the fact that a Pokemon could be based on a pitcher plant (Victreebel) or a psychic duck that is not actually psychic (Golduck). So, honouring my childhood and my career as a data scientist, I thought I would be a great idea to start a project using Generative Adversarial Networks (Or also known as GANs) to generate new Pokemon. So let's begin!
+I was never a good player competitive player (yeah, I very often loose, haha!), but one thing I really really like is the design element Pokemon has. As a child, I was very amused by the fact that a Pokemon could be based on a pitcher plant (victreebel) or a psychic duck that is not actually psychic (golduck). So, honouring my childhood and my career as a data scientist, I thought I would be a great idea to start a project using Generative Adversarial Networks (or also known as GANs) to generate new Pokemon. So let's begin!
 
 <h3 style="font-size:200%;text-align:center">GANs</h3>
 
@@ -48,7 +48,7 @@ Here it is starting to create shapes.
 
 ![](../images/epoch_500.png)
 
-By epoch 500, colours are being added to the Pokemon (Thought it is only orange and blue)
+By epoch 500, colours are being added to the Pokemon (thought it is only orange and blue)
 
 <b style="font-size:110%;text-align:center">700th Epoch</b>
 
@@ -56,7 +56,7 @@ By epoch 500, colours are being added to the Pokemon (Thought it is only orange 
 
 The one on the right looks like Butterfree but not as clear.
 
-As you can see, the networks starts with nothin but a grey frame and starts to develop shapes and colors that are similar to those of the real Pokemon. However, I believe there is still a lot of room for improvement, the images are still not as clear to be called a Pokemon. Maybe, trying to change the architecture could help (Also, I would be interested to know if there is any pretrained NN that involves Pokemon). Or adding different images of the same Pokemon (different artworks, rotated images, and so on). Nonetheless, I see that there are interesting shapes that are starting to be created, the gif looks really artsy and I am enjoying watching it. Maybe running it for more epochs could help too. 
+As you can see, the networks starts with nothing but a grey frame and starts to develop shapes and colors that are similar to those of the real Pokemon. However, I believe there is still a lot of room for improvement, the images are still not as clear to be called a Pokemon. Maybe, trying to change the architecture could help (also, I would be interested to know if there is any pretrained NN that involves Pokemon). Or adding different images of the same Pokemon (different artworks, rotated images, and so on). Nonetheless, I see that there are interesting shapes that are starting to be created, the gif looks really artsy and I am enjoying watching it. Maybe running it for more epochs could help too. 
 
 Overall, I am really liking this project so I think I will keep on improving it. If you are insterested in the code, here is the link to the [repo](https://github.com/AndresPitta/P02_Pokemon-merger). 
 
