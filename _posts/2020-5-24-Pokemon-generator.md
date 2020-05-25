@@ -1,8 +1,8 @@
 ---
-title: "Pokemon generator"
 layout: post
+title: Pokemon-generator
 ---
-<h1 style="font-size:200%;text-align:center">Using Generative Adversarial Networks to generate Pókemon</h1>
+<h1 style="font-size:200%;text-align:center">Using Generative Adversarial Networks to generate Pokemon</h1>
 
 Growing up, I really enjoyed everything about Pókemon. I remember that I was around 11 when my parents bought me my first Pókemon game, Pokemón Ruby. The first Pókemon I chose was the grass-type, Treecko, and then at the second gym I regretted my decision and restarted the game to play with the water-type Mudkip (Because I loved the swimming pool, so it made sense to me as a kid to only have water-type Pókemon). 
 
