@@ -30,6 +30,8 @@ Just briefly, using the link above, I created a GAN with the images in 'RGBA' mo
 
 ![result](../images/results.PNG)
 
+The one on the right looks like Butterfree but not as clear.
+
 As you can see, there is still a lot of room for improvement. Maybe, trying to change the architecture could help (Also, I would be interested to know if there is any pretrained NN that involves Pokemon). Nonetheless, I see that there are interesting shapes that are starting to be created, the gif looks really artsy and I am enjoying watching it. Maybe running it for more epochs could help too. 
 
 Overall, I am really liking this project so I think I will keep on improving it. If you are insterested in the code, here is the link to the [repo](https://github.com/AndresPitta/P02_Pokemon-merger). Stay tuned for more work!
