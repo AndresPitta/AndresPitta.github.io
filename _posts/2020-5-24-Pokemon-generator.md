@@ -19,7 +19,7 @@ Or in the words of Tensorflow:
 
 Well, for those of you who don't know what a Pókemon is here is sample of the images I used:
 
-![Pokemon_sample](../images/pokemon_sample.png)
+![Pokemon_sample](../images/pokemon_sample.PNG)
 
 Please, play a Pókemon game. Also, this data contains almost 900 Pókemon from the first 8 generations and it was scrapped from [pokemon.com](https://www.pokemon.com/us/pokedex/). I did not upload the images to the repo. 
 
