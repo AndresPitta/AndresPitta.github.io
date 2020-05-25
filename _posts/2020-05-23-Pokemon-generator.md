@@ -30,7 +30,7 @@ Please, play a Pokemon game. Also, this data contains almost 900 Pokemon from th
 
 Just briefly, using the link above, I created a GAN with the images in 'RGBA' mode. I resized the images to 80x80 so that they were easier to handle. In addition, I trained the model for 700 epochs using google colab.
 
-Additionally, Neural Networks are a complex net of matrix multiplications and activations functions that requires several steps to reduce their loss. This steps are known as epochs and, in this case, through the epochs we expect that the generator becomes better and better at fooling the discriminator. Here are some epochs of the generation proccess:
+Additionally, Neural Networks are a complex net of matrix multiplications and activations functions that requires several steps to reduce their loss. These steps are known as epochs and, in this case, through the epochs we expect the generator to become better and better at fooling the discriminator. Here are some epochs of the generation proccess:
 
 <b style="font-size:110%;text-align:center">First Epoch</b>
 
@@ -56,7 +56,7 @@ By epoch 500, colours are being added to the Pokemon (Thought it is only orange 
 
 The one on the right looks like Butterfree but not as clear.
 
-As you can see, the networks starts with nothin but a grey frame and starts to develop shapes and colors that are similar to those of the real Pokemon. However, I believe there is still a lot of room for improvement. Maybe, trying to change the architecture could help (Also, I would be interested to know if there is any pretrained NN that involves Pokemon). Or adding different images of the same Pokemon (different artworks, rotated images, and so on). Nonetheless, I see that there are interesting shapes that are starting to be created, the gif looks really artsy and I am enjoying watching it. Maybe running it for more epochs could help too. 
+As you can see, the networks starts with nothin but a grey frame and starts to develop shapes and colors that are similar to those of the real Pokemon. However, I believe there is still a lot of room for improvement, the images are still not as clear to be called a Pokemon. Maybe, trying to change the architecture could help (Also, I would be interested to know if there is any pretrained NN that involves Pokemon). Or adding different images of the same Pokemon (different artworks, rotated images, and so on). Nonetheless, I see that there are interesting shapes that are starting to be created, the gif looks really artsy and I am enjoying watching it. Maybe running it for more epochs could help too. 
 
 Overall, I am really liking this project so I think I will keep on improving it. If you are insterested in the code, here is the link to the [repo](https://github.com/AndresPitta/P02_Pokemon-merger). 
 
