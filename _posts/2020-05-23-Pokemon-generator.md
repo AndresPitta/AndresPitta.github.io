@@ -30,7 +30,7 @@ Please, play a Pokemon game. Also, this data contains almost 900 Pokemon from th
 
 Just briefly, using the link above, I created a GAN with the images in 'RGBA' mode. I resized the images to 80x80 so that they were easier to handle. In addition, I trained the model for 700 epochs using google colab.
 
-Additionally, Neural Networks are a complex net of matrix multiplications and activations functions that requires several steps to reduce their loss. This steps are known as epochs and, in this case, through the epochs we expect that the generator becomes better and better in fooling the discriminator. Here are some epochs of the generation proccess:
+Additionally, Neural Networks are a complex net of matrix multiplications and activations functions that requires several steps to reduce their loss. This steps are known as epochs and, in this case, through the epochs we expect that the generator becomes better and better at fooling the discriminator. Here are some epochs of the generation proccess:
 
 <b style="font-size:110%;text-align:center">First Epoch</b>
 
