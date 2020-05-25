@@ -6,7 +6,7 @@ title: Pokemon-generator
 
 Growing up, I really enjoyed everything about Pokemon. I remember that I was around 11 when my parents bought me my first Pokemon game, Pokemon Ruby. The first Pokemon I chose was the grass-type, Treecko, and then at the second gym I regretted my decision and restarted the game to play with the water-type Mudkip (because I loved the swimming pool, so it made sense to me as a kid to only have water-type Pokemon). 
 
-I was never a good player competitive player (yeah, I very often loose, haha!), but one thing I really really like is the design element Pokemon has. As a child, I was very amused by the fact that a Pokemon could be based on a pitcher plant (victreebel) or a psychic duck that is not actually psychic (golduck). So, honouring my childhood and my career as a data scientist, I thought I would be a great idea to start a project using Generative Adversarial Networks (or also known as GANs) to generate new Pokemon. So let's begin!
+I was never a good player competitive player (yeah, I very often loose, haha!), but one thing I really really like is the design element Pokemon has. As a child, I was very amused by the fact that a Pokemon could be based on a pitcher plant (victreebel) or a psychic duck that is not actually psychic (golduck). So, honouring my childhood and my career as a data scientist, I thought it would be a great idea to start a project using Generative Adversarial Networks (or also known as GANs) to generate new Pokemon. So let's begin!
 
 <h3 style="font-size:200%;text-align:center">GANs</h3>
 
