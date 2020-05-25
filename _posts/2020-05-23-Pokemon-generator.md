@@ -10,7 +10,7 @@ I was never a good player competitive player (Yeah, I very often loose, haha!), 
 
 <h3 style="font-size:200%;text-align:center">GANs</h3>
 
-The first thing I wanted to touch on is Generative Adversarial Models. Briefly speaking, a Generative Adversarial Network is a machine learning framework in which 2 Neural Networks are adversaries (as the name indicates). And why are they opponents?, you may ask. Basically, one of the networks is in charge of generating new or 'fake' images and the other one is in charge of evaluating if the image is 'fake' or not. The first network is called the generator and the second is called the discriminator. And the whole point of the framework is that the generator could generate 'fake' images in a way in which the discriminator would not be able to detect that the image is 'fake'.
+The first thing I wanted to touch on is Generative Adversarial Models. Briefly speaking, a Generative Adversarial Network is a machine learning framework in which 2 Neural Networks are adversaries (as the name indicates). And why are they opponents?, you may ask. Basically, one of the networks is in charge of generating new or 'fake' images and the other one is in charge of evaluating if the image is 'fake' or not. The first network is called the generator and the second is called the discriminator. The whole point of the framework is building a generator that could generate 'fake' images in a way in which the discriminator would not be able to detect that image is 'fake'.
 
 Or in the words of Tensorflow
 ![GANs](https://github.com/tensorflow/docs/raw/3082041fb5ef2b29217584659bc43d89602d57cf/site/en/tutorials/generative/images/gan1.png)
