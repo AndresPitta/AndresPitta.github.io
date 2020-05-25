@@ -15,6 +15,8 @@ The first thing I wanted to touch on is Generative Adversarial Models. Briefly s
 Or in the words of Tensorflow
 ![GANs](https://github.com/tensorflow/docs/raw/3082041fb5ef2b29217584659bc43d89602d57cf/site/en/tutorials/generative/images/gan1.png)
 
+If you want to learn more (and see where the image was taken from), please go to this [link](https://www.tensorflow.org/tutorials/generative/dcgan)
+
 <h3 style="font-size:200%;text-align:center">Pokemon data</h3>
 
 Well, for those of you who don't know what a Pokemon is here is sample of the images I used
