@@ -15,7 +15,7 @@ The first thing I wanted to touch on is Generative Adversarial Models. Briefly s
 Or in the words of Tensorflow
 ![GANs](https://github.com/tensorflow/docs/raw/3082041fb5ef2b29217584659bc43d89602d57cf/site/en/tutorials/generative/images/gan1.png)
 
-If you want to learn more (and see where the image was taken from), please go to this [link](https://www.tensorflow.org/tutorials/generative/dcgan)
+If you want to learn more (and see where the image was taken from), please go to this [link](https://www.tensorflow.org/tutorials/generative/dcgan). It's tensorflow's tutorial on GANs.
 
 <h3 style="font-size:200%;text-align:center">Pokemon data</h3>
 
@@ -28,15 +28,39 @@ Please, play a Pokemon game. Also, this data contains almost 900 Pokemon from th
 
 <h3 style="font-size:200%;text-align:center">The work</h3>
 
-Just briefly, using the link above, I created a GAN with the images in 'RGBA' mode. I resized the images to 80x80 so that they were easier to handle. In addition, I trained the model for 700 epochs using google colab. As a first result, this is what I got
+Just briefly, using the link above, I created a GAN with the images in 'RGBA' mode. I resized the images to 80x80 so that they were easier to handle. In addition, I trained the model for 700 epochs using google colab.
 
-![result](../images/results.png)
+Additionally, Neural Networks are a complex net of matrix multiplications and activations functions that requires several steps to reduce their loss. This steps are known as epochs and, in this case, through the epochs we expect that the generator becomes better and better in fooling the discriminator. Here are some epochs of the generation proccess:
+
+<b style="font-size:110%;text-align:center">First Epoch</b>
+
+![](../images/epoch_1.png)
+
+Nothing here, this is a good start haha.
+
+<b style="font-size:110%;text-align:center">250th Epoch</b>
+
+![](../images/epoch_250.png)
+
+Here it is starting to create shapes.
+
+<b style="font-size:110%;text-align:center">500th Epoch</b>
+
+![](../images/epoch_500.png)
+
+By epoch 500, colours are being added to the Pokemon (Thought it is only orange and blue)
+
+<b style="font-size:110%;text-align:center">700th Epoch</b>
+
+![](../images/results.png)
 
 The one on the right looks like Butterfree but not as clear.
 
-As you can see, there is still a lot of room for improvement. Maybe, trying to change the architecture could help (Also, I would be interested to know if there is any pretrained NN that involves Pokemon). Nonetheless, I see that there are interesting shapes that are starting to be created, the gif looks really artsy and I am enjoying watching it. Maybe running it for more epochs could help too. 
+As you can see, the networks starts with nothin but a grey frame and starts to develop shapes and colors that are similar to those of the real Pokemon. However, I believe there is still a lot of room for improvement. Maybe, trying to change the architecture could help (Also, I would be interested to know if there is any pretrained NN that involves Pokemon). Or adding different images of the same Pokemon (different artworks, rotated images, and so on). Nonetheless, I see that there are interesting shapes that are starting to be created, the gif looks really artsy and I am enjoying watching it. Maybe running it for more epochs could help too. 
 
-Overall, I am really liking this project so I think I will keep on improving it. If you are insterested in the code, here is the link to the [repo](https://github.com/AndresPitta/P02_Pokemon-merger). Stay tuned for more work!
+Overall, I am really liking this project so I think I will keep on improving it. If you are insterested in the code, here is the link to the [repo](https://github.com/AndresPitta/P02_Pokemon-merger). 
+
+Stay tuned for more work!
 
 
 
