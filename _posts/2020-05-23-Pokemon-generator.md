@@ -28,7 +28,7 @@ Please, play a Pokemon game. Also, this data contains almost 900 Pokemon from th
 
 Just briefly, using the link above, I created a GAN with the images in 'RGBA' mode. I resized the images to 80x80 so that they were easier to handle. In addition, I trained the model for 700 epochs using google colab. As a first result, this is what I got
 
-![result](../images/results.PNG)
+![result](../images/results.png)
 
 The one on the right looks like Butterfree but not as clear.
 
