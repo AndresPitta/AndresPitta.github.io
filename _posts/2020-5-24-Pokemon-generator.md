@@ -12,12 +12,12 @@ I was never a good player competitive player (Yeah, I very often loose, haha!), 
 
 The first thing I wanted to touch on is Generative Adversarial Models. Briefly speaking, a Generative Adversarial Network is a machine learning framework in which 2 Neural Networks are adversaries (as the name indicates). And why are they opponents?, you may ask. Basically, one of the networks is in charge of generating new or 'fake' images and the other one is in charge of evaluating if the image is 'fake' or not. The first network is called the generator and the second is called the discriminator. And the whole point of the framework is that the generator could generate 'fake' images in a way in which the discriminator would not able to detect that is a 'fake' image.
 
-Or in the words of Tensorflow:
+Or in the words of Tensorflow
 ![GANs](https://github.com/tensorflow/docs/raw/3082041fb5ef2b29217584659bc43d89602d57cf/site/en/tutorials/generative/images/gan1.png)
 
 <h3 style="font-size:200%;text-align:center">Pókemon data</h3>
 
-Well, for those of you who don't know what a Pókemon is here is sample of the images I used:
+Well, for those of you who don't know what a Pókemon is here is sample of the images I used
 
 ![Pokemon_sample](../images/pokemon_sample.PNG)
 
@@ -26,7 +26,7 @@ Please, play a Pókemon game. Also, this data contains almost 900 Pókemon from th
 
 <h3 style="font-size:200%;text-align:center">The work</h3>
 
-Just briefly, using the link above, I created a GAN with the images in 'RGBA' mode. I resized the images to 80x80 so that they were easier to handle. In addition, I trained the model for 700 epochs using google colab. As a first result, this is what I got:
+Just briefly, using the link above, I created a GAN with the images in 'RGBA' mode. I resized the images to 80x80 so that they were easier to handle. In addition, I trained the model for 700 epochs using google colab. As a first result, this is what I got
 
 ![result](../images/results.gif)
 
