@@ -15,7 +15,7 @@ This problem was proposed by a Capstone partner during my graduate program at UB
 
 Our capstone partner provided to us around 217,000 images of houses as shown below.   
 
-![Houses_sample](../images/sample_image.PNG)
+![Houses_sample](../images/sample_image.png)
 
 Most of the pictures contained your typical American house with a big front yard and a family of 8. However, in the dataset we also had images that contained interiors and floorplans, like this one:
 
@@ -33,7 +33,7 @@ This bit is a little more technical, for those of you who want a little more det
 
 For this model, we used a conditional GANs, which basically means that the input is a city and the output will be a generated image of that city. The architecture we used for the model is the following:
 
-![architecture](../images/architecture.PNG)
+![architecture](../images/architecture.png)
 
 The final model was run for 3200 epochs using a GPU optimized instance in AWS. Which in a few words means that we had to spend almost 20 hours running the model in AWS. If you want to see the code it is located [here](https://github.com/AndresPitta/MDS-2019-20-capstone-realtor.com/blob/master/src/cdcgans.py)
 
@@ -41,13 +41,13 @@ The final model was run for 3200 epochs using a GPU optimized instance in AWS. W
 
 Finally, the results. I promise this part is going to be more interesting haha. As I mentioned before, the network was trained for 200 epochs. For each epoch, the generator became better and better at generating never-seen-before images. Here is an example of what I am saying:  
 
-![gan_process](../images/gan_process.PNG)
+![gan_process](../images/gan_process.png)
 
 As you can see, by epoch 200th the model learned how a house looks like.
 
 We also checked whether the model was generating novel images, instead of copy-pasting what already was in the dataset. For this, we use cosine similarity to evaluate the closest image from a generated image. Here is an example
 
-![most_similar](../images/most_similar.PNG)
+![most_similar](../images/most_similar.png)
 
 In the figure, we can see a generated image on the left and its closest **real** image on the right. As you can see, the image on the left still has a few features from the image on the right. However, it looks different enough to be considered a new house that no one has seen before.
 
