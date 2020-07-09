@@ -61,6 +61,7 @@ As you can see, this time the images look more realistic compared to the Pokemon
 
 As you can see, this project was successful at generating realistic images of exteriors. Further improvements could include trying to refine the edges by doing more post-processing or incorporating pre-trained networks to improve the quality of the images. 
 
+if you want to learn more, you can contact me through my [linkedin](https://www.linkedin.com/in/andrespitta19/).
 
 Stay tuned for more work!
 
