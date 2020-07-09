@@ -21,7 +21,7 @@ Most of the pictures contained your typical American house with a big front yard
 
 ![Giraffe_sample](../images/giraffe.jpg)
 
-And I know that giraffes are really cool. Nonetheless, one problem we saw in the previous post is homogeneity. It seems like when images are not cohesive enough, GANs try to generate images that resemble all of the elements in them. Thus, the team believes that, having a floorplan in the same dataset as an exterior image will result in noisy generated images. To solve this problem, using [this code](https://github.com/AndresPitta/MDS-2019-20-capstone-realtor.com/blob/master/src/img_cluster.py), we created 4 clusters as shown here:
+And I know that giraffes are really cool. Nonetheless, one problem we saw in the previous post is homogeneity. It seems like when images are not cohesive enough, GANs try to generate images that resemble all of the elements in them. Thus, the team believes that, having a floorplan in the same dataset as an exterior image will result in noisy generated images. To solve this problem, we created 4 clusters as shown here:
 
 ![clusters](../images/clusters.PNG)
 
@@ -35,7 +35,7 @@ For this model, we used a conditional GANs, which means that the input is a city
 
 ![architecture](../images/architecture.png)
 
-The final model was run for 3200 epochs using a GPU optimized instance in AWS. Which in a few words means that we had to spend almost 20 hours running the model in AWS. If you want to see the code it is located [here](https://github.com/AndresPitta/MDS-2019-20-capstone-realtor.com/blob/master/src/cdcgans.py)
+The final model was run for 3200 epochs using a GPU optimized instance in AWS. Which in a few words means that we had to spend almost 20 hours running the model in AWS.
 
 <h3 style="font-size:200%;text-align:center">The results</h3>
 
@@ -61,7 +61,6 @@ As you can see, this time the images look more realistic compared to the Pokemon
 
 As you can see, this project was successful at generating realistic images of exteriors. Further improvements could include trying to refine the edges by doing more post-processing or incorporating pre-trained networks to improve the quality of the images. 
 
-If you want to learn more about the project, this is the link to the [repo](https://github.com/AndresPitta/MDS-2019-20-capstone-realtor.com/tree/055db9696f489b7a18dbb15ef13fcfca193d6f7c). I hope you enjoyed this article.
 
 Stay tuned for more work!
 
