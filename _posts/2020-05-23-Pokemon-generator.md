@@ -1,6 +1,7 @@
 ---
+title: "Pokemon-generator"
 layout: post
-title: Pokemon-generator
+output: pdf_document
 ---
 <h1 style="font-size:200%;text-align:center">Using Generative Adversarial Networks to generate Pokemon</h1>
 
