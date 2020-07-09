@@ -5,7 +5,7 @@ output: pdf_document
 ---
 <h1 style="font-size:200%;text-align:center">Generating Photo Realistic Neighbourhoods using Artificial Intelligence</h1>
 
-On my previous [post](https://andrespitta.github.io/Pokemon-generator/), I decided to use an Artificial Intelligence framework known as Generative Adversarial Networks (GANs) to generate new, never-seen-before Pokemon. Even though I had around 890 images of Pokemon, the results did not generate any clear new Pokemon. This time, in collaboration with a team of 3 more people, I decided to run an improved version of the same algorithm, but in a difference dataset. 
+In my previous [post](https://andrespitta.github.io/Pokemon-generator/), I decided to use an Artificial Intelligence framework known as Generative Adversarial Networks (GANs) to generate new, never-seen-before Pokemon. Even though I had around 890 images of Pokemon, the results did not generate any clear new Pokemon. This time, in collaboration with a team of 3 more people, I decided to run an improved version of the same algorithm, but in a different dataset. 
 
 <h3 style="font-size:200%;text-align:center">The Problem</h3>
 
@@ -13,7 +13,7 @@ This problem was proposed by a Capstone partner during my graduate program at UB
 
 <h3 style="font-size:200%;text-align:center">The data</h3>
 
-Our capstone partner provided to us around 217,000 images of houses as shown below.   
+Our capstone partner provided us with around 217,000 images of houses as shown below.   
 
 ![Houses_sample](../images/sample_image.png)
 
@@ -21,17 +21,17 @@ Most of the pictures contained your typical American house with a big front yard
 
 ![Giraffe_sample](../images/giraffe.jpg)
 
-And I know that giraffes are really cool. Nonetheless, one problem we saw in the previous post is homogeneity. It seems like, when images are not cohesive enough, GANs try to generate images that resemble all of the elements in them. Thus, the team believes that, having a floorplan in the same dataset as an exterior image will result in noisy generated images. In order to solve this problem, using [this code](https://github.com/AndresPitta/MDS-2019-20-capstone-realtor.com/blob/master/src/img_cluster.py), we created 4 clusters as shown here:
+And I know that giraffes are really cool. Nonetheless, one problem we saw in the previous post is homogeneity. It seems like when images are not cohesive enough, GANs try to generate images that resemble all of the elements in them. Thus, the team believes that, having a floorplan in the same dataset as an exterior image will result in noisy generated images. To solve this problem, using [this code](https://github.com/AndresPitta/MDS-2019-20-capstone-realtor.com/blob/master/src/img_cluster.py), we created 4 clusters as shown here:
 
 ![clusters](../images/clusters.PNG)
 
-For this model, for cohesiveness, we used about 100,000 from the exteriors cluster. This is because these images resemble the images that are already in the website.
+For this model, for cohesiveness, we used about 100,000 from the exteriors cluster. This is because these images resemble the images that are already on the website.
 
 <h3 style="font-size:200%;text-align:center">The work</h3>
 
 This bit is a little more technical, for those of you who want a little more detail. As mentioned in the previous post, GANs are made of 2 opposing networks: The Generator and The Discriminator. The Generator is in charge of generating images and the Discriminator is in charge of judging whether these images are real or not. The networks are trained for several epochs, in which for each epoch, the networks become better at doing their job. The goal is that, after several epochs, the Generator generates images realistic enough to fool the discriminator.
 
-For this model, we used a conditional GANs, which basically means that the input is a city and the output will be a generated image of that city. The architecture we used for the model is the following:
+For this model, we used a conditional GANs, which means that the input is a city and the output will be a generated image of that city. The architecture we used for the model is the following:
 
 ![architecture](../images/architecture.png)
 
@@ -55,11 +55,11 @@ Once we knew it was generating new images, we tested the generation process for 
 
 ![results](../images/model1.jpg)
 
-As you can see, this time the images look more realistic compared to the Pokemon project. Some of the images still have white spots and blurry edges that make the image loose its fantasy. However, these results made me really happy.
+As you can see, this time the images look more realistic compared to the Pokemon project. Some of the images still have white spots and blurry edges that make the image lose its fantasy. However, these results made me really happy.
 
 <h3 style="font-size:200%;text-align:center">Conclusions</h3>
 
-As you can see, this project was successful at generating realistic images of exteriors. Further improvements could include trying to refine the edges by doing more post-processing or incorporating pretrained networks to improve the quality of the images. 
+As you can see, this project was successful at generating realistic images of exteriors. Further improvements could include trying to refine the edges by doing more post-processing or incorporating pre-trained networks to improve the quality of the images. 
 
 If you want to learn more about the project, this is the link to the [repo](https://github.com/AndresPitta/MDS-2019-20-capstone-realtor.com/tree/055db9696f489b7a18dbb15ef13fcfca193d6f7c). I hope you enjoyed this article.
 
