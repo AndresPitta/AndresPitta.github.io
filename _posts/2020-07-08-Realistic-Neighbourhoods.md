@@ -65,15 +65,17 @@ if you want to learn more, you can contact me through my [linkedin](https://www.
 
 Stay tuned for more work!
 
+<h3 style="font-size:200%;text-align:center">References</h3>
+
 Also, here are some useful links we used for reference:
 
-Brownlee, Jason. 2019. "How to Develop a Conditional GAN (cGAN) From Scratch," Machine Learning Mastery (blog), July 5, 2019. https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/.
+Brownlee, Jason. 2019. "How to Develop a Conditional GAN (cGAN) From Scratch," Machine Learning Mastery (blog), July 5, 2019. [https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/](https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/).
 
-Surma, Greg. 2019. "Image Generator - Drawing Cartoons with Generative Adversarial Networks," Towards data science (blog), February 10, 2019. https://towardsdatascience.com/image-generator-drawing-cartoons-with-generative-adversarial-networks-45e814ca9b6b
+Surma, Greg. 2019. "Image Generator - Drawing Cartoons with Generative Adversarial Networks," Towards data science (blog), February 10, 2019. [https://towardsdatascience.com/image-generator-drawing-cartoons-with-generative-adversarial-networks-45e814ca9b6b](https://towardsdatascience.com/image-generator-drawing-cartoons-with-generative-adversarial-networks-45e814ca9b6b)
 
-Kong, Joash. 2019. "Conditional DCGAN+CNN using 32 Images." July 1, 2019. https://www.kaggle.com/joashjw/conditional-dcgan-cnn-using-32-images
+Kong, Joash. 2019. "Conditional DCGAN+CNN using 32 Images." July 1, 2019. [https://www.kaggle.com/joashjw/conditional-dcgan-cnn-using-32-images](https://www.kaggle.com/joashjw/conditional-dcgan-cnn-using-32-images)
 
-Xu, Xiaochun. 2019. "CDCGAN_mnist_eager" April 1, 2019. https://www.kaggle.com/xxc025/cdcgan-mnist-eager
+Xu, Xiaochun. 2019. "CDCGAN_mnist_eager" April 1, 2019. [https://www.kaggle.com/xxc025/cdcgan-mnist-eager](https://www.kaggle.com/xxc025/cdcgan-mnist-eager)
 
 
 
